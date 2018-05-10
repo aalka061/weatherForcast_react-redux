@@ -14,11 +14,8 @@ export default (props) => {
                         <SparklinesLine color={props.color} />
                         <SparklinesReferenceLine type="mean" />
              </Sparklines>
-             <div className="row">
-                <div className="col-md-6 col-xs-offset-1">
+             <div>
                     {avg(props.data)} {props.units}
-
-                </div>
              </div>
         </div>
     )
